@@ -1,0 +1,79 @@
+{"sections":[
+
+	{
+	"section":"101",
+	"versions":[
+	{
+		"version":"0",
+		"short_title":"Short Title",
+		"text":"This Act may be cited as the \"District of Columbia Self-Government and Governmental Reorganization Act\".",
+		"source": {"stat":"87 Stat. 776","cite":"101"}
+	},
+	{
+		"version":"1",
+		"short_title":"Short Title",
+		"text":"This Act may be cited as the \"District of Columbia Home Rule Act\".",
+		"source": {"stat":"111 Stat. 251","cite":"11717(a)"}
+	}
+	],
+	"code":"1-201.01",
+	"history": "Dec. 24, 1973, 87 Stat. 776, Pub. L. 93-198, title I, § 101; Aug. 5, 1997, 111 Stat. 251, Pub. L. 105-33, title XI, § 11717(a).",
+	"title":"1",
+	"part":"",
+	"subpart":""
+	},
+
+	{
+	"section":"102",
+	"versions":[
+	{
+		"version":"0",
+		"short_title":"Statement of Purposes",
+		"text":"(a) Subject to the retention by Congress of the ultimate legislative authority over the Nation's Capital granted by article I, section 8, of the Constitution, the intent of Congress is to delegate certain legislative powers to the government of the District of Columbia: authorize the election of certain local officials by the registered qualified electors in the District of Columbia; grant to the inhabitants of the District of Columbia powers of local self-government; to modernize, reorganize, and otherwise improve the governmental structure of the District of Columbia; and, to the greatest extent possible, consistent with the constitutional mandate, relieve Congress of the burden of legislating upon essentially local District matters.\n(b) Congress further intends to implement certain recommendations of the Commission on the Organization of the Government of the District of Columbia and take certain other actions irrespective of whether the charter for greater self-government provided for in title IV of this Act is accepted or rejected by the registered qualified electors of the District of Columbia.",
+		"source":{"stat":"87 Stat. 777","cite":"102"}
+	}
+	],
+	"code":"1-201.02",
+	"history":"Dec. 24, 1973, 87 Stat. 777, Pub. L. 93-198, title I, § 102.",
+	"title":"1",
+	"part":"",
+	"subpart":""
+	},
+
+	{
+	"section":"103",
+	"versions":[
+	{
+		"version":"0",
+		"short_title":"Definitions",
+		"text":"For the purposes of this Act—\n(1) The term \"District\" means the District of Columbia.\n(2) The term \"Council\" means the Council of the District of Columbia provided for by part A of title IV.\n(3) The term \"Commissioner\" means the Commissioner of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(4) The term \"District of Columbia Council\" means the Council of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(5) The term \"Chairman\" means, unless otherwise provided in this Act, the Chairman of the Council provided for by part A of title IV.\n(6) The term \"Mayor\" means the Mayor provided for by part B of title IV.\n(7) The term \"act\" includes any legislation passed by the Council, except where the term \"Act\" is used to refer to this Act or other Acts of Congress herein specified.\n(8) The term \"capital project\" means (A) any physical public betterment or improvement and any preliminary studies and surveys relative thereto; (B) the acquisition of property of a permanent nature; or (C) the purchase of equipment for any public betterment or improvement when first erected or acquired.\n(9) The term \"pending\", when applied to any capital project, means authorized but not yet completed.\n(10) The term \"District revenues\" means all funds derived from taxes, fees, charges, and miscellaneous receipts, including all annual Federal payments to the District authorized by law, and from the sale of bonds.\n(11) The term \"election\", unless the context otherwise provides, means an election held pursuant to the provisions of this Act.\n(12) The terms \"publish\" and \"publication\", unless otherwise specifically provided herein, mean publication in a newspaper of general circulation in the District.\n(13) The term \"District of Columbia courts\" means the Superior Court of the District of Columbia and the District of Columbia Court of Appeals.\n(14) The term \"resources\" means revenues, balances, revolving funds, funds realized from borrowing, and the District share of Federal grant programs.\n(15) The term \"budget\" means the entire request for appropriations and loan or spending authority for all activities of all agencies of the District financed from all existing or proposed resources and shall include both operating and capital expenditures.",
+		"source":{"stat":"87 Stat. 777","cite":"103"}
+	},
+	{
+		"version":"1",
+		"short_title":"Definitions",
+		"text":"For the purposes of this Act—\n(1) The term \"District\" means the District of Columbia.\n(2) The term \"Council\" means the Council of the District of Columbia provided for by part A of title IV.\n(3) The term \"Commissioner\" means the Commissioner of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(4) The term \"District of Columbia Council\" means the Council of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(5) The term \"Chairman\" means, unless otherwise provided in this Act, the Chairman of the Council provided for by part A of title IV.\n(6) The term \"Mayor\" means the Mayor provided for by part B of title IV.\n(7) The term \"act\" includes any legislation passed by the Council, except where the term \"Act\" is used to refer to this Act or other Acts of Congress herein specified.\n(8) The term 'capital project' means any physical public betterment or improvement, the acquisition of property of a permanent nature, or the purchase of equipment or furnishings, and includes[:] (A) costs of any preliminary plans, studies, and surveys in connection with such betterment, improvement, acquisition, or purchase, (B) costs incidental to such betterment, improvement, acquisition, or purchase, and the financing thereof, including the cost of any election, professional fees, printing or engraving, production and reproduction of documents, publication of notices, taking of title, bond insurance, and interest during construction, and (C) the reimbursement of any fund or account for amounts expended for the payment of any such costs[.]\n(9) The term \"pending\", when applied to any capital project, means authorized but not yet completed.\n(10) The term \"District revenues\" means all funds derived from taxes, fees, charges, and miscellaneous receipts, including all annual Federal payments to the District authorized by law, and from the sale of bonds.\n(11) The term \"election\", unless the context otherwise provides, means an election held pursuant to the provisions of this Act.\n(12) The terms \"publish\" and \"publication\", unless otherwise specifically provided herein, mean publication in a newspaper of general circulation in the District.\n(13) The term \"District of Columbia courts\" means the Superior Court of the District of Columbia and the District of Columbia Court of Appeals.\n(14) The term \"resources\" means revenues, balances, revolving funds, funds realized from borrowing, and the District share of Federal grant programs.\n(15) The term \"budget\" means the entire request for appropriations and loan or spending authority for all activities of all agencies of the District financed from all existing or proposed resources and shall include both operating and capital expenditures.",
+		"source":{"stat":"95 Stat. 1493","cite":"1"}
+	},
+	{
+		"version":"2",
+		"short_title":"Definitions",
+		"text":"For the purposes of this Act—\n(1) The term \"District\" means the District of Columbia.\n(2) The term \"Council\" means the Council of the District of Columbia provided for by part A of title IV.\n(3) The term \"Commissioner\" means the Commissioner of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(4) The term \"District of Columbia Council\" means the Council of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(5) The term \"Chairman\" means, unless otherwise provided in this Act, the Chairman of the Council provided for by part A of title IV.\n(6) The term \"Mayor\" means the Mayor provided for by part B of title IV.\n(7) The term \"act\" includes any legislation passed by the Council, except where the term \"Act\" is used to refer to this Act or other Acts of Congress herein specified.\n(8) The term 'capital project' means any physical public betterment or improvement, the acquisition of property of a permanent nature, or the purchase of equipment or furnishings, and includes[:] (A) costs of any preliminary plans, studies, and surveys in connection with such betterment, improvement, acquisition, or purchase, (B) costs incidental to such betterment, improvement, acquisition, or purchase, and the financing thereof, including the cost of any election, professional fees, printing or engraving, production and reproduction of documents, publication of notices, taking of title, bond insurance, and interest during construction, and (C) the reimbursement of any fund or account for amounts expended for the payment of any such costs[.]\n(9) The term \"pending\", when applied to any capital project, means authorized but not yet completed.\n(10) The term 'District revenues' means all funds derived from taxes, fees, charges, miscellaneous receipts, the annual Federal payment to the District authorized under title V, grants and other forms of financial assistance, or the sale of bonds, notes, or other obligations, and any funds administered by the District government under cost sharing arrangements.\n(11) The term \"election\", unless the context otherwise provides, means an election held pursuant to the provisions of this Act.\n(12) The terms \"publish\" and \"publication\", unless otherwise specifically provided herein, mean publication in a newspaper of general circulation in the District.\n(13) The term \"District of Columbia courts\" means the Superior Court of the District of Columbia and the District of Columbia Court of Appeals.\n(14) The term 'resources' means revenues, balances, enterprise or other revolving funds, and funds realized from borrowing.\n(15) The term 'budget' means the entire request for appropriations or loan or spending authority for all activities of all departments or agencies of the District of Columbia financed from all existing, proposed or anticipated resources, and shall include both operating and capital expenditures.",
+		"source":{"stat":"109 Stat. 141","cite":"301(a)(1)"}
+	},
+	{
+		"version":"3",
+		"short_title":"Definitions",
+		"text":"For the purposes of this Act—\n(1) The term \"District\" means the District of Columbia.\n(2) The term \"Council\" means the Council of the District of Columbia provided for by part A of title IV.\n(3) The term \"Commissioner\" means the Commissioner of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(4) The term \"District of Columbia Council\" means the Council of the District of Columbia established under Reorganization Plan Numbered 3 of 1967.\n(5) The term \"Chairman\" means, unless otherwise provided in this Act, the Chairman of the Council provided for by part A of title IV.\n(6) The term \"Mayor\" means the Mayor provided for by part B of title IV.\n(7) The term \"act\" includes any legislation passed by the Council, except where the term \"Act\" is used to refer to this Act or other Acts of Congress herein specified.\n(8) The term 'capital project' means any physical public betterment or improvement, the acquisition of property of a permanent nature, or the purchase of equipment or furnishings, and includes[:] (A) costs of any preliminary plans, studies, and surveys in connection with such betterment, improvement, acquisition, or purchase, (B) costs incidental to such betterment, improvement, acquisition, or purchase, and the financing thereof, including the cost of any election, professional fees, printing or engraving, production and reproduction of documents, publication of notices, taking of title, bond insurance, and interest during construction, and (C) the reimbursement of any fund or account for amounts expended for the payment of any such costs[.]\n(9) The term \"pending\", when applied to any capital project, means authorized but not yet completed.\n(10) The term 'District revenues' means all funds derived from taxes, fees, charges, miscellaneous receipts, grants and other forms of financial assistance, or the sale of bonds, notes, or other obligations, and any funds administered by the District government under cost sharing arrangements.\n(11) The term \"election\", unless the context otherwise provides, means an election held pursuant to the provisions of this Act.\n(12) The terms \"publish\" and \"publication\", unless otherwise specifically provided herein, mean publication in a newspaper of general circulation in the District.\n(13) The term \"District of Columbia courts\" means the Superior Court of the District of Columbia and the District of Columbia Court of Appeals.\n(14) The term 'resources' means revenues, balances, enterprise or other revolving funds, and funds realized from borrowing.\n(15) The term 'budget' means the entire request for appropriations or loan or spending authority for all activities of all departments or agencies of the District of Columbia financed from all existing, proposed or anticipated resources, and shall include both operating and capital expenditures.",
+		"source":{"stat":"111 Stat. 777","cite":"11601(b)(1)(A)"}
+	}
+	],
+	"code":"1-201.03",
+	"history":"Dec. 24, 1973, 87 Stat. 777, Pub. L. 93-198, title I, § 103; Dec. 28, 1981, 95 Stat. 1493, Pub. L. 97-105, § 1; Apr. 17, 1995, 109 Stat. 141, Pub. L. 104-8, § 301(a)(1); Aug. 5, 1997, 111 Stat. 777, Pub. L. 105-33,§ 11601(b)(1)(A).",
+	"title":"1",
+	"part":"",
+	"subpart":""
+	}
+
+]
+}
