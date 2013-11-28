@@ -1,0 +1,22 @@
+{
+	"section":"101",
+	"versions":[
+	{
+		"version":"0",
+		"short_title":"Short Title",
+		"text":"This Act may be cited as the \"District of Columbia Self-Government and Governmental Reorganization Act\".",
+		"source": {"stat":"87 Stat. 776","cite":"101"}
+	},
+	{
+		"version":"1",
+		"short_title":"Short Title",
+		"text":"This Act may be cited as the \"District of Columbia Home Rule Act\".",
+		"source": {"stat":"111 Stat. 251","cite":"11717(a)"}
+	}
+	],
+	"code":"1-201.01",
+	"history": "Dec. 24, 1973, 87 Stat. 776, Pub. L. 93-198, title I, § 101; Aug. 5, 1997, 111 Stat. 251, Pub. L. 105-33, title XI, § 11717(a).",
+	"title":"1",
+	"part":"",
+	"subpart":""
+}
