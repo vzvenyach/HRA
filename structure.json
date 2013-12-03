@@ -1,0 +1,132 @@
+[
+{
+	"title":"I",
+	"description":"Short Title, Purposes, and Definitions"
+},
+{
+	"title":"II",
+	"description":"Governmental Reorganization"
+},
+{
+	"title":"III",
+	"description":"District Charter Preamble, Legislative Power, and Charter Amending Procedure"
+},
+{
+	"title":"IV",
+	"description":"The District Charter",
+	"parts":[
+	{
+		"part":"A",
+		"description":"The Council",
+		"subparts":[
+		{
+			"subpart":"1",
+			"description":"Creation of the Council"
+		},
+		{
+			"subpart":"2",
+			"description":"Organization and Procedure of the Council"
+		}
+		]
+	},
+	{
+		"part":"B",
+		"description":"The Mayor"
+	},
+	{
+		"part":"C",
+		"description":"The Judiciary"
+	},
+	{
+		"part":"C-I",
+		"description":"The Attorney General"
+	},
+	{
+		"part":"D",
+		"description":"District Budget and Financial Management",
+		"subparts":[
+		{
+			"subpart":"1",
+			"description":"Budget and Financial Management"
+		},
+		{
+			"subpart":"2",
+			"description":"Audit"
+		}
+		]
+	},
+	{
+		"part":"E",
+		"description":"Borrowing",
+		"subparts":[
+		{
+			"subpart":"1",
+			"description":"Borrowing"
+		},
+		{
+			"subpart":"2",
+			"description":"Short-Term Borrowing"
+		},
+		{
+			"subpart":"3",
+			"description":"Payment of Bonds and Notes"
+		},
+		{
+			"subpart":"4",
+			"description":"Full Faith and Credit of the Unites States"
+		},
+		{
+			"subpart":"5",
+			"description":"Tax Exemptions; Legal Investment; Water Pollution;Reservoirs; Metro Contributions; and Revenue Bonds"
+		}
+		]
+	},
+	{
+		"part":"F",
+		"description":"Independent Agencies and Authorities"
+	}
+	]
+},
+{
+	"title":"V",
+	"description":"Federal Payment"
+},
+{
+	"title":"VI",
+	"description":"Reservation of Congressional Authority"
+},
+{
+	"title":"VII",
+	"description":"Referendum; Succession in Government; Temporary Provisions; Miscellaneous; Amendments to District of Columbia Elections Act; Rules of Construction; and Effective Dates",
+	"parts":[
+	{
+		"part":"A",
+		"description":"Charter Referendum"
+	},
+	{
+		"part":"B",
+		"description":"Succession in Government"
+	},
+	{
+		"part":"C",
+		"description":"Temporary Provisions"
+	},
+		{
+		"part":"D",
+		"description":"Miscellaneous"
+	},
+		{
+		"part":"E",
+		"description":"Amendment to the District of Columbia Election Act Amendments"
+	},
+	{
+		"part":"F",
+		"description":"Rules of Construction"
+	},
+	{
+		"part":"G",
+		"description":"Effective Dates"
+	}
+	]
+}
+]
