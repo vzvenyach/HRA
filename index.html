@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>The District of Columbia Home Rule Act</title>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/helper.js"></script>
+<script type="text/javascript">
+	$.getJSON('sections/101.json', function (d) {
+		$('div#section101').replaceWith(makeTextBox(d));
+		$(' button' ).on("click", function(){
+			$('div#sectionBox').replaceWith('<div id="sectionBox">' + d.versions[$(this).text()].text + '</div>');
+		});
+	});
+</script>
+
+</head>
+<body>
+<h1>The Home Rule Act</h1>
+<div id="section_tree">This is where I want the sections tree to go. But for now it's just section 101.</div>
+<div id="section101">This is where I'm putting section 101 for now</div>
+</body>
+</html>
