@@ -1,9 +1,10 @@
 function makeTextBox(data) {
 	var s = data.versions;
 	sCount = s.length - 1;
-	var outString = '<h2> Sec. ' + data.section +'. ' + s[sCount].short_title + '.</h2><div id="sectionBox">';
+	var outString = makeButtons(sCount+1);
+	outString += '<h2> Sec. ' + data.section +'. ' + s[sCount].short_title + '.</h2><div id="sectionBox">';
+	outString += '<h3>Source: ' + s[sCount].source.stat + '</h3>';
 	outString += s[sCount].text + '</div><p/>';
-	outString += makeButtons(sCount+1);
 	return outString;
 }
 
