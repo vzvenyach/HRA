@@ -1,9 +1,7 @@
 <html>
 <head>
 <title>The District of Columbia Home Rule Act</title>
-<style type="text/css">
-div#sectionBox {white-space:pre;}
-</style>
+
 
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/helper.js"></script>
@@ -12,7 +10,9 @@ div#sectionBox {white-space:pre;}
 		$('div#section424').replaceWith(makeTextBox(d));
 		$(' button' ).on("click", function(){
 			$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + d.versions[$(this).text()].source.stat + '</h3>' + d.versions[$(this).text()].text + '</div>');
+			$('div#sectionBox').css("white-space","pre");
 		});
+		$('div#sectionBox').css("white-space","pre");
 	});
 </script>
 
