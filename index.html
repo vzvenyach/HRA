@@ -10,9 +10,9 @@
 		$(' button' ).on("click", function(){
 			var cite=d.versions[$(this).text()].source.stat;
 			$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: <a href="' + makeStatURL(cite) + '" target="blank">' + cite + '</a> (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + d.versions[$(this).text()].text + '</div>');
-			$('div#sectionBox').css("white-space","pre-wrap");
+			//$('div#sectionBox').css("white-space","pre-wrap");
 		});
-		$('div#sectionBox').css("white-space","pre-wrap");
+//		$('div#sectionBox').css("white-space","pre-wrap");
 	});
 </script>
 

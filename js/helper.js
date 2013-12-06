@@ -5,7 +5,7 @@ function makeTextBox(data) {
 	var outString = makeButtons(sCount+1);
 	outString += '<h2> Sec. ' + data.section +'. ' + s[sCount].short_title + '.</h2><div id="sectionBox">';
 	outString += '<h3>Source: <a href="' + makeStatURL(cite) + '" target="blank">' + cite + '</a> (' + s[sCount].source.date + ')</h3>';
-	outString += s[sCount].text + '</div><p/>';
+	outString += formatJSONtext(s[sCount].text) + '</div><p/>';
 	return outString;
 }
 
@@ -26,4 +26,8 @@ function makeStatURL (cite) {
 	var out = cite.match(/\d+/g);
 	url = 'http://www.gpo.gov/fdsys/search/citation2.result.STATUTE.action?statute.volume=' + out[0] + '&statute.pageNumber=' + out[1] +'&publication=STATUTE';
 	return url;
+}
+
+function formatJSONtext (textString) {
+	return textString.replace(/(.*)(\n)/g,'<p>$1</p>').replace(/\t/g,'&nbsp;&nbsp;&nbsp;&nbsp;');
 }
