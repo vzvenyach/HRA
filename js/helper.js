@@ -4,7 +4,7 @@ function makeTextBox(data) {
 	var cite = s[sCount].source.stat;
 	var outString = makeButtons(sCount+1);
 	outString += '<h2> Sec. ' + data.section +'. ' + s[sCount].short_title + '.</h2><div id="sectionBox">';
-	outString += '<h3>Source: <a href="' + makeStatURL(cite) + '" target="blank">' + cite + '</a> (' + s[sCount].source.date + ')</h3>';
+	outString += '<h3>Source: ' + makeStatURL(cite) + ' (' + s[sCount].source.date + ')</h3>';
 	outString += formatJSONtext(s[sCount].text) + '</div><p/>';
 	return outString;
 }
@@ -21,13 +21,16 @@ function makeButtons(count) {
 
 function makeStatURL (cite) {
 	//cite format: 100 Stat. 3228
-	//http://www.gpo.gov/fdsys/search/citation2.result.STATUTE.action?statute.volume=87&statute.pageNumber=795&publication=STATUTE
+	// Shout out to @tmcw and @konklone at DCCode.org for the inspiration for these functions
 
 	var out = cite.match(/\d+/g);
-	url = 'http://www.gpo.gov/fdsys/search/citation2.result.STATUTE.action?statute.volume=' + out[0] + '&statute.pageNumber=' + out[1] +'&publication=STATUTE';
-	return url;
+	return linked('http://api.fdsys.gov/link?collection=statute&volume=' + out[0] + '&page=' + out[1], cite);
 }
 
 function formatJSONtext (textString) {
 	return textString.replace(/(.*)(\n)/g,'<p>$1</p>').replace(/\t/g,'&nbsp;&nbsp;&nbsp;&nbsp;');
+}
+
+function linked(url, text) {
+	return '<a href="' + url + '" target="blank">' + text + '</a>';
 }
