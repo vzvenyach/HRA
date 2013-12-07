@@ -1,3 +1,12 @@
+function buildSection(section) {
+	$.getJSON('sections/' + section + '.json', function (d) {
+		$('div#section').replaceWith(makeTextBox(d));
+		$(' button ').on("click", function(){
+			var cite=d.versions[$(this).text()].source.stat;
+			$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + makeStatURL(cite) + ' (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + formatJSONtext(d.versions[$(this).text()].text) + '</div>')});
+	});
+}
+
 function makeTextBox(data) {
 	var s = data.versions;
 	sCount = s.length - 1;
@@ -10,12 +19,13 @@ function makeTextBox(data) {
 }
 
 function makeButtons(count) {
-	var outString = "";
+	var outString = '<div class="btn-group">';
 	var i = 0;
 	while (i < count) {
-		outString += '<button class="version" id="v_' + i + '" onClick>' + i + '</button>\n';
+		outString += '<button type="button" class="btn btn-default" id="v_' + i + '" onClick>' + i + '</button>\n';
 		i++;
 	}
+	outString +='</div>'
 	return outString;
 }
 

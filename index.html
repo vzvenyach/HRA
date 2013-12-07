@@ -1,25 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>The District of Columbia Home Rule Act</title>
-<script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/helper.js"></script>
-<script type="text/javascript">
-//	var userInput = prompt('Which section?');
-	$.getJSON('sections/' + '433' + '.json', function (d) {
-		$('div#section424').replaceWith(makeTextBox(d));
-		$(' button' ).on("click", function(){
-			var cite=d.versions[$(this).text()].source.stat;
-			$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + makeStatURL(cite) + ' (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + formatJSONtext(d.versions[$(this).text()].text) + '</div>');
-			//$('div#sectionBox').css("white-space","pre-wrap");
-		});
-//		$('div#sectionBox').css("white-space","pre-wrap");
-	});
-</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<title>The District of Columbia Home Rule Act</title>
 
 </head>
 <body>
-<h1>The Home Rule Act</h1>
-<div id="section_tree">This is where I want the sections tree to go. But for now it's just section 433. <p>Click on the buttons below to see the different versions of the section:</p></div>
-<div id="section424">This is where I'm putting section 433 for now.</div>
+
+<!--This is where the content is going to go-->
+<nav class="navbar navbar-default navbar-static-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">District of Columbia Home Rule Act</a>
+  </div>
+</nav>
+
+<div class="container">
+	<h1>The D.C. Home Rule Act</h1>
+	<div id="section_tree">This is where I want the sections tree to go. But for now it's just section 441. <p>Click on the buttons below to see the different versions of the section:</p></div>
+	<div id="section">This is where I'm putting section 441 for now.</div>
+</div>
+
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/helper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   	<script type="text/javascript">
+		buildSection('441');
+	</script>
 </body>
 </html>
