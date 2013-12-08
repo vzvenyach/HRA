@@ -11,7 +11,7 @@
 <body>
 
 <!--This is where the content is going to go-->
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -22,11 +22,21 @@
     </button>
     <a class="navbar-brand" href="#">District of Columbia Home Rule Act</a>
   </div>
+
+  <form class="navbar-form navbar-left" role="search" id="get_section">
+  <div class="form-group">
+    <input type="text" class="form-control" name="section_request" placeholder="Search">
+  </div>
+    <button type="button" class="btn btn-default" onclick="buildSection($('input').val())" href="#">Submit</button>
+  </form>
 </nav>
 
 <div class="container">
 	<h1>The D.C. Home Rule Act</h1>
 	<div id="section_tree">This is where I want the sections tree to go. But for now it's just section 441. <p>Click on the buttons below to see the different versions of the section:</p></div>
+
+
+
 	<div id="section">This is where I'm putting section 441 for now.</div>
 </div>
 
@@ -35,6 +45,17 @@
     <script src="js/bootstrap.min.js"></script>
    	<script type="text/javascript">
 		buildSection('441');
+
+    //This ensures that if a User presses enter, it doesn't submit the form...
+    $("#get_section").keypress(function(e){            
+        if(e.keyCode==13)
+         {
+            e.preventDefault();  /// add prevent default
+            buildSection($('input').val())
+
+         }
+    });
+
 	</script>
 </body>
 </html>

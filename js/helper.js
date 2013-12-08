@@ -1,9 +1,9 @@
 function buildSection(section) {
 	$.getJSON('sections/' + section + '.json', function (d) {
 		$('div#section').replaceWith(makeTextBox(d));
-		$(' button ').on("click", function(){
-			var cite=d.versions[$(this).text()].source.stat;
-			$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + makeStatURL(cite) + ' (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + formatJSONtext(d.versions[$(this).text()].text) + '</div>')});
+		    $(' button ').on("click", function(){
+		    	var cite=d.versions[$(this).text()].source.stat;
+		    	$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + makeStatURL(cite) + ' (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + formatJSONtext(d.versions[$(this).text()].text) + '</div>')});
 	});
 }
 
@@ -11,10 +11,11 @@ function makeTextBox(data) {
 	var s = data.versions;
 	sCount = s.length - 1;
 	var cite = s[sCount].source.stat;
-	var outString = makeButtons(sCount+1);
+	var outString = '<div id="section">';
+	outString += makeButtons(sCount+1);
 	outString += '<h2> Sec. ' + data.section +'. ' + s[sCount].short_title + '.</h2><div id="sectionBox">';
 	outString += '<h3>Source: ' + makeStatURL(cite) + ' (' + s[sCount].source.date + ')</h3>';
-	outString += formatJSONtext(s[sCount].text) + '</div><p/>';
+	outString += formatJSONtext(s[sCount].text) + '</div><p/></div>';
 	return outString;
 }
 
