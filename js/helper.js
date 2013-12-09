@@ -34,6 +34,9 @@ function makeStatURL (cite) {
 	//cite format: 100 Stat. 3228
 	// Shout out to @tmcw and @konklone at DCCode.org for the inspiration for these functions
 
+	if (cite.search(/Stat/) == -1) {
+		return cite;
+	}
 	var out = cite.match(/\d+/g);
 	return linked('http://api.fdsys.gov/link?collection=statute&volume=' + out[0] + '&page=' + out[1], cite);
 }
