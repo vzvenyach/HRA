@@ -11,18 +11,17 @@ function buildSection(section) {
 	}).fail(function(){
 		console.log("failed");
 		window.location.hash = "#";});
-	$('input').val("");
+	$('input').val(getHashFromURL());
 }
 
 function getUserInput() {
-	location.reload(true);
 
 	var userInput = $('input').val();
 	window.location.hash = userInput;
 
 // Build section
 	buildSection(userInput);
-	$('input').val() = getHashFromURL();
+	$('input').val(getHashFromURL());
 //Need to deal with error from buildSection()
 
 }
