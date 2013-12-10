@@ -12,18 +12,17 @@ function buildSection(section) {
 		console.log("failed");
 		window.location.hash = "#";});
 	$('input').val(getHashFromURL());
+
 }
 
 function getUserInput() {
-
 	var userInput = $('input').val();
 	window.location.hash = userInput;
 
-// Build section
+	// Build section
 	buildSection(userInput);
 	$('input').val(getHashFromURL());
-//Need to deal with error from buildSection()
-
+//	location.reload(true);
 }
 
 function makeTextBox(data) {
