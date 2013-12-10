@@ -1,19 +1,28 @@
+function getHashFromURL () {
+	return window.location.hash.replace("\#","");
+}
+
 function buildSection(section) {
 	$.getJSON('sections/' + section + '.json', function (d) {
 		$('div#section').replaceWith(makeTextBox(d));
 		    $(' button ').on("click", function(){
 		    	var cite=d.versions[$(this).text()].source.stat;
-		    	$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + makeStatURL(cite) + ' (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + formatJSONtext(d.versions[$(this).text()].text) + '</div>')});
-	});
+		    	$('div#sectionBox').replaceWith('<div id="sectionBox">' + '<h3>Source: ' + makeStatURL(cite) + ' (' + d.versions[$(this).text()].source.date + ')' +'</h3>' + formatJSONtext(d.versions[$(this).text()].text) + '</div>');});
+	}).fail(function(){
+		console.log("failed");
+		window.location.hash = "#";});
+	$('input').val("");
 }
 
 function getUserInput() {
-  var userInput = $('input').val();
-  window.location.hash = userInput;
+	location.reload(true);
+
+	var userInput = $('input').val();
+	window.location.hash = userInput;
 
 // Build section
-  buildSection(userInput);
-
+	buildSection(userInput);
+	$('input').val() = getHashFromURL();
 //Need to deal with error from buildSection()
 
 }
