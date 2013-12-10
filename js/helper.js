@@ -7,6 +7,17 @@ function buildSection(section) {
 	});
 }
 
+function getUserInput() {
+  var userInput = $('input').val();
+  window.location.hash = userInput;
+
+// Build section
+  buildSection(userInput);
+
+//Need to deal with error from buildSection()
+
+}
+
 function makeTextBox(data) {
 	var s = data.versions;
 	sCount = s.length - 1;
